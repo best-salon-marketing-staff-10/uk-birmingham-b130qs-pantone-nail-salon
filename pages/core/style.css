@@ -255,7 +255,6 @@
   .offers,
   .customer-review,
   .services-list-4,
-  .services-list-5,
   .services-list-6,
   .services-list-7{
     display: none;
@@ -1001,6 +1000,9 @@
   */
     /*footer
     */
+    .footer-navigation-item-1{
+      display: none;
+    }
     .footer-image{
       max-width: 20px;
     }
@@ -1013,6 +1015,7 @@
     .divider{
       color: #EC5598;
     }
+    
     .footer-navigation-item{
       color: #424A59;
       font-weight: 500;

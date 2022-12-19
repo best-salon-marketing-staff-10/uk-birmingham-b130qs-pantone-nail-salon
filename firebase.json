@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "pantone-nails-salon",
     "public": "out",
     "ignore": [
       "firebase.json",

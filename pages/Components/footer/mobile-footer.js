@@ -142,7 +142,7 @@ export default function MobileFooter(){
                             </Link>
                         </div>
                          
-                        <div className="footer-navigation-item">
+                        <div className="footer-navigation-item-1">
                             <iframe src={changedInfo.iframeMapLink} width="480" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>

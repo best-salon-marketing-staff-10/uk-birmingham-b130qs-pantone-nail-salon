@@ -156,7 +156,7 @@ export default function TabletFooter(){
                         </div>
                     </div>
                 </div>
-                <div className="footer-navigation-item">
+                <div className="footer-navigation-item-1">
                     <iframe src={changedInfo.iframeMapLink} width="1024" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="footer-copyright">
