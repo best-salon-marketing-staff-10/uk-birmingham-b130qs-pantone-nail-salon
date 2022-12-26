@@ -133,7 +133,7 @@ const changedInfo = {
 
   // Các ảnh của tiệm
   ogImage:"https://i.ibb.co/QHwbtRM/og-image.jpg",
-  icon:"/icon.png",
+  icon:"/icon.jpg",
   businessLogo:"/logo.jpg",
 }
 
