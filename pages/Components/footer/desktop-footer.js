@@ -153,7 +153,7 @@ export default function DesktopFooter(){
                         </div>
                     </div>
                 </div> 
-                <div className="footer-navigation-item-1">
+                <div className="footer-navigation-item">
                     <iframe src={changedInfo.iframeMapLink} width="1920" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="footer-copyright">

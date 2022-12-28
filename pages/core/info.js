@@ -121,15 +121,15 @@ const changedInfo = {
 
   
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải
-  geoLatitude: "",
-  geoLongitude: "",
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải 
+  geoLatitude: "52.42143510837839",
+  geoLongitude: "-1.8791945443826883",
 
-  //Code xác minh của website trên Google Search
+  //Code xác minh của website trên Google Search    
   metaGoogleSiteVerification: "",
 
   //iframe map
-  iframeMapLink : "",
+  iframeMapLink : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d152.0742783689584!2d-1.879235112793087!3d52.421382969081186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f7d70a5f20a066f!2sPantone%20nails%20salon!5e0!3m2!1sen!2suk!4v1672128934819!5m2!1sen!2suk",
 
   // Các ảnh của tiệm
   ogImage:"https://i.ibb.co/QHwbtRM/og-image.jpg",
@@ -431,13 +431,13 @@ const schemaInput = {
 
   schemaPriceRange: "££",
   //Cần đổi tên khách
-  schemaPersonReviewAuthorName: "Karolina Hamilton",
-  //Xem điểm review trung bình của tiệm là bao nhiêu
-  schemaRatingValue: "4.6",
+  schemaPersonReviewAuthorName: "Sara Alansari",
+  //Xem điểm review trung bình của tiệm là bao nhiêu 
+  schemaRatingValue: "5",
   schemaBestRating: "5",
 
-  schemaGeoLatitude: 50.721704169283726,
-  schemaLongitude: -3.533617680425276,
+  schemaGeoLatitude: 52.42143510837839,
+  schemaLongitude: -1.8791945443826883,
 
   schemaUrl: changedInfo.businessWebsite,
 
