@@ -340,7 +340,7 @@ const processedInfo = {
   businessBookingLink: changedInfo.linkBookingApp,
 
   //offer.js
-  offerTitle : "Our Offers and Benefits",
+  offerTitle : "Our Offers and Benefit",
   offerDescription : "Free all cold drink and hot drink, chocolate, sweet or snack",
   offerHeading : "Our offers:",
   offerContent1 : "✅10% for Student. ",
@@ -432,7 +432,7 @@ const schemaInput = {
   schemaPriceRange: "££",
   //Cần đổi tên khách
   schemaPersonReviewAuthorName: "Sara Alansari",
-  //Xem điểm review trung bình của tiệm là bao nhiêu 
+  //Xem điểm review trung bình của tiệm là bao nhiêu                                
   schemaRatingValue: "5",
   schemaBestRating: "5",
 
