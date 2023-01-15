@@ -78,8 +78,8 @@ const businessOpeningTimeInput = {
   satOpeningTime : "10:00",
   satClosingTime : "19:00",
 
-  sunOpeningTime : "10:00",
-  sunClosingTime : "19:00",
+  sunOpeningTime : "",
+  sunClosingTime : "",
 }
 
 const processedBusinessOpeningTime = {
@@ -91,7 +91,7 @@ const processedBusinessOpeningTime = {
   workingTimeThu : "Thursday: " + businessOpeningTimeInput.thuOpeningTime + "–" + businessOpeningTimeInput.thuClosingTime,
   workingTimeFri : "Friday: " + businessOpeningTimeInput.friOpeningTime + "–" + businessOpeningTimeInput.friClosingTime,
   workingTimeSat : "Saturday: " + businessOpeningTimeInput.satOpeningTime + "–" + businessOpeningTimeInput.satClosingTime,
-  workingTimeSun : "Sunday: " + businessOpeningTimeInput.sunOpeningTime + "–" + businessOpeningTimeInput.sunClosingTime,
+  workingTimeSun : "Sunday: Closed " + businessOpeningTimeInput.sunOpeningTime + "" + businessOpeningTimeInput.sunClosingTime,
 }
 
 
@@ -116,8 +116,8 @@ const changedInfo = {
   businessWebsite: "",
 
   linkBookingMap: "",
-  linkBookingApp: "https://pantonenailsalon.setmore.com/",
-  linkToMap: "",
+  linkBookingApp: "https://bit.ly/3VTLBFG",
+  linkToMap: "https://g.page/r/CW8GCvKlcH0fEBM/",
 
   
 
@@ -132,7 +132,7 @@ const changedInfo = {
   iframeMapLink : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d152.0742783689584!2d-1.879235112793087!3d52.421382969081186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f7d70a5f20a066f!2sPantone%20nails%20salon!5e0!3m2!1sen!2suk!4v1672128934819!5m2!1sen!2suk",
 
   // Các ảnh của tiệm
-  ogImage:"https://i.ibb.co/QHwbtRM/og-image.jpg",
+  ogImage:"https://i.ibb.co/9HFkfXm/og-image.jpg",
   icon:"/icon.jpg",
   businessLogo:"/logo.jpg",
 }
@@ -867,7 +867,7 @@ const images = {
  
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
-    service6Price : "25",
+    service6Price : "28",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service7 : "Full Set Pink & White",
@@ -955,9 +955,10 @@ const images = {
     service23Price : "36",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
-    service24 : "BIAB buider gel Fullset",
+    //
+    service24 : "Fullset BIAB",
     service24Time : "35 mins",
-    service24Price : "37",
+    service24Price : "35",
     service24Description : "",
   
     service25 : "BIAB buider gel Infill",
@@ -1027,7 +1028,7 @@ const images = {
 
     service38 : "Full set Acrylic French Tip",
     service38Time : "45 mins",
-    service38Price : "28",
+    service38Price : "32",
     service38Description : "",
 
     service39 : "Infill Acrylic French Tip",
@@ -1119,7 +1120,7 @@ const images = {
     service56Time : "",
     service56Price : "1",
     service56Description : "",
-  
+ 
     service57 : "Glitter Dust (10 Nails)",
     service57Time : "",
     service57Price :"6",
@@ -1150,6 +1151,55 @@ const images = {
     service62Price : "1",
     service62Description : "",
 
+    //
+    service63 : "Fullset BIAB white tip",
+    service63ime : "45 mins",
+    service63Price : "38",
+    service63Description : "",
+
+    //
+    service64 : "Take off Acrylic (Hands)",
+    service64Time : "30 mins",
+    service64Price : "10",
+    service64Description : "",
+
+    //
+    service65 : "Take off Acrylic (Foot)",
+    service65Time : "30 mins",
+    service65Price : "12",
+    service65Description : "",
+
+    //
+    service66 : "Take off BIAB (Hands)",
+    service66Time : "30 mins",
+    service66Price : "10",
+    service66Description : "",
+
+    // 
+    service67 : "Take off BIAB (Foot)",
+    service67Time : "30 mins",
+    service67Price : "10",
+    service67Description : "",
+
+    //
+    service68 : "Infill BIAB",
+    service68Time : "30 mins",
+    service68Price : "28",
+    service68Description : "",
+
+    //
+    service69 : "Infill BIAB with Shellac",
+    service69Time : "45 mins",
+    service69Price : "32",
+    service69Description : "",
+    
+    //
+    service70 : "Gel Powder Infill with Shellac",
+    service70Time : "45 mins",
+    service70Price : "32",
+    service70Description : "",
+
+
   
 
 
@@ -1168,14 +1218,16 @@ const images = {
     service2Price : "22",
     service2Description : "",
   
+    //
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
-    service3Price : "30",
+    service3Price : "25",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
   
+    //
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "30",
+    service4Price : "31",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
@@ -1193,7 +1245,7 @@ const images = {
     service7Price : "25",
     service7Description : "",
  
-    service8 : "Take off shellac",
+    service8 : "Take off shellac (Hands)",
     service8Time : "20 mins",
     service8Price : "7",
     service8Description : "Just take off shellac",
@@ -1210,13 +1262,18 @@ const images = {
 
     service11 : "Shellac on natural Nails",
     service11Time : "20 mins",
-    service11Price : "22",
+    service11Price : "20",
     service11Description : "",
 
     service12 : "Shellac on toes",
     service12Time : "25 mins",
     service12Price : "22",
     service12Description : "",
+
+    service13 : "Take off shellac (Foot)",
+    service13Time : "30 mins",
+    service13Price : "10",
+    service13Description : "",
 
 
   };
@@ -1229,7 +1286,7 @@ const images = {
 
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "28",
+    service2Price : "26",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
     
     service3 : "Luxury Pedicure",
