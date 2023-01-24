@@ -738,7 +738,7 @@ const images = {
   section7Image1 : "/images/nail-extension-3.jpg",
   section7Image2 : "/images/nail-extension-4.jpg",
 
-  LocationImage1 : "/images/nail-extension-11.jpg",
+  LocationImage1 : "/images/nails-extension-11.jpg",
 
   serviceList1Image1 : "/images/nail-extension-5.jpg",
   serviceList1Image2 : "/images/nail-extension-6.jpg",
