@@ -842,32 +842,32 @@ const images = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "27",
+    service1Price : "26",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
-    service2Price : "23",
+    service2Price : "22",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "32",
+    service3Price : "31",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
-    service4Price : "28",
+    service4Price : "27",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
-    service5Price : "30",
+    service5Price : "29",
     service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
  
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
-    service6Price : "28",
+    service6Price : "27",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service7 : "Full Set Pink & White",
@@ -880,9 +880,9 @@ const images = {
     service8Price : "35",
     service8Description : "",
  
-    service9 : "Full Set Ombre Cat Eye",
+    service9 : "Full Set Ombre/ Cat Eye",
     service9Time : "45 mins",
-    service9Price : "35",
+    service9Price : "34",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
     service10 : "Infill Ombre",
@@ -955,13 +955,12 @@ const images = {
     service23Price : "36",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
-    //
     service24 : "Fullset BIAB",
     service24Time : "35 mins",
-    service24Price : "35",
+    service24Price : "33",
     service24Description : "",
   
-    service25 : "BIAB buider gel Infill",
+    service25 : "",
     service25Time : "30 mins",
     service25Price : "30",
     service25Description : "",
@@ -1028,7 +1027,7 @@ const images = {
 
     service38 : "Full set Acrylic French Tip",
     service38Time : "45 mins",
-    service38Price : "32",
+    service38Price : "31",
     service38Description : "",
 
     service39 : "Infill Acrylic French Tip",
@@ -1083,7 +1082,7 @@ const images = {
 
     service49 : "Full set Glitter",
     service49Time : "45 mins",
-    service49Price : "32",
+    service49Price : "31",
     service49Description : "",
 
     service50 : "Take off Acrylic only",
@@ -1120,7 +1119,7 @@ const images = {
     service56Time : "",
     service56Price : "1",
     service56Description : "",
- 
+
     service57 : "Glitter Dust (10 Nails)",
     service57Time : "",
     service57Price :"6",
@@ -1151,55 +1150,56 @@ const images = {
     service62Price : "1",
     service62Description : "",
 
-    //
     service63 : "Fullset BIAB white tip",
     service63ime : "45 mins",
     service63Price : "38",
     service63Description : "",
 
-    //
     service64 : "Take off Acrylic (Hands)",
     service64Time : "30 mins",
     service64Price : "10",
     service64Description : "",
 
-    //
     service65 : "Take off Acrylic (Foot)",
     service65Time : "30 mins",
     service65Price : "12",
     service65Description : "",
 
-    //
     service66 : "Take off BIAB (Hands)",
     service66Time : "30 mins",
     service66Price : "10",
     service66Description : "",
 
-    // 
     service67 : "Take off BIAB (Foot)",
     service67Time : "30 mins",
     service67Price : "10",
     service67Description : "",
 
-    //
     service68 : "Infill BIAB",
     service68Time : "30 mins",
-    service68Price : "28",
+    service68Price : "27",
     service68Description : "",
 
-    //
     service69 : "Infill BIAB with Shellac",
     service69Time : "45 mins",
-    service69Price : "32",
+    service69Price : "31",
     service69Description : "",
-    
-    //
+ 
     service70 : "Gel Powder Infill with Shellac",
     service70Time : "45 mins",
-    service70Price : "32",
+    service70Price : "31",
     service70Description : "",
 
+    service71 : "BIAB on Natural Nail",
+    service71Time : "45 mins",
+    service71Price : "28",
+    service71Description : "",
 
+    service72 : "Full set Acrylic White Tip",
+    service72Time : "45 mins",
+    service72Price : "31",
+    service72Description : "",
+    
   
 
 
@@ -1217,17 +1217,15 @@ const images = {
     service2Time : "30 mins",
     service2Price : "22",
     service2Description : "",
-  
-    //
+
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
     service3Price : "25",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
-  
-    //
+
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "31",
+    service4Price : "32",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
@@ -1244,7 +1242,7 @@ const images = {
     service7Time : "40 mins",
     service7Price : "25",
     service7Description : "",
- 
+
     service8 : "Take off shellac (Hands)",
     service8Time : "20 mins",
     service8Price : "7",
@@ -1262,12 +1260,12 @@ const images = {
 
     service11 : "Shellac on natural Nails",
     service11Time : "20 mins",
-    service11Price : "20",
+    service11Price : "18",
     service11Description : "",
 
     service12 : "Shellac on toes",
     service12Time : "25 mins",
-    service12Price : "22",
+    service12Price : "18",
     service12Description : "",
 
     service13 : "Take off shellac (Foot)",
@@ -1422,12 +1420,12 @@ const images = {
     service6Price : "8",
     service6Description : "",
 
-    service7 : "Broken Glass Design (2 Nails)",
+    service7 : "Craked Design (2 Nails)",
     service7Time  : "",
     service7Price : "5",
     service7Description : "",
 
-    service8 : "Broken Glass Design (10 Nails)",
+    service8 : "Craked Design (10 Nails)",
     service8Time : "",
     service8Price : "15",
     service8Description : "",
